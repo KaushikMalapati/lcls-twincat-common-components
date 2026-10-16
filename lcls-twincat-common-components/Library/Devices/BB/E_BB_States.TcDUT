@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <DUT Name="E_BB_States" Id="{3f522ed9-7d8a-45e5-97f2-fc34f5b8fa18}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE E_BB_States :
+(
+	Unknown	:= 0,
+	OUT		:= 1,
+	IN		:= 2
+) UINT;
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
